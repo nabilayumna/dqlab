@@ -1,3 +1,6 @@
+/* Needed table */
+SELECT * FROM dqlab_sales_store
+
 /* Overall Performance by Year */
 SELECT 
   YEAR(order_date) AS years,
